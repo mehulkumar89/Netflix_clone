@@ -1,0 +1,182 @@
+*{
+    margin : 0;
+    padding : 0;
+
+}
+body{
+    background-color: black;
+}
+.col{
+    display : flex;
+   
+}
+
+.col-1{
+   display : flex;
+    width: 6%;
+    height : 100vh;
+    position : fixed;
+    
+}
+/* .col-1 .active{
+    width : 1000rem;
+    background-image:url("img/avengers.jpg");
+
+    
+} */
+.items{
+  margin-top :16rem;
+    display:flex;
+    flex-direction: column;
+    margin-left: 35%;
+    
+    
+    
+}
+.fa-solid, .fa-sharp{
+  
+   font-size: 1.5rem;
+   margin-bottom : 3.4rem;
+   color : white;
+
+}
+.col-2{
+  
+    
+    width:94%;
+    margin-left : 80px;
+    background-image : url(img/eternals.jpg);
+    background-size: cover;
+}
+.col-2 .row-1 .N{
+    display : flex;
+    text-align: center;
+  
+    align-items: center;
+    
+    margin-left : .2rem;
+}
+.col-2 .row-1 p{
+    color :white;
+    
+    letter-spacing: .614rem;
+}
+.col-2 .row-1{
+    margin-top : 7rem;
+    margin-bottom : 100px;
+}
+.col-2 .row-1 .header h1{
+    color :white;
+   
+    font-size: 3rem;
+  text-align: center;
+   left: 2%;
+    
+    
+
+}
+.col-2 .row-1{
+    width : fit-content;
+ 
+   height : 300px;
+    
+    background-image: cover;
+}
+
+.col-2 .row-1 h5{
+    color :white;
+
+    width : 18rem;
+    text-align: left;
+    font-size : 1rem;
+ 
+}
+.col-2 .row-1 .header button i{
+    width : .3rem;
+    height : .3rem;
+    color : black;
+}
+.col-2 .row-1 .header button{
+    width : 8.5rem;
+    height : 3.2rem;
+    margin-top:1rem;
+    margin-right : .397rem;
+    border-radius : .456rem; 
+}
+ .col-2 .row-1 .header .btn{
+    display : flex;
+    outline : none;
+}
+.col-2 .row-1 .header .btn #more{
+    background: transparent;
+    color : white;
+    cursor: pointer;
+}
+.col-2 .row-1 .header .btn #play{
+    
+    cursor: pointer;
+}
+.col-2 .row-2 .header1 h1{
+    color : white;
+    
+}
+.col-2 .row-2 .header1 .poster-container{
+    overflow-x: scroll;
+    display : flex;
+}
+.col-2 .row-2 .header1 .poster-container .poster{
+    margin-right: .4rem;
+ transition : .3s linear;
+ 
+
+}
+
+
+.col-2 .row-2 .header1 .poster-container .poster:hover {
+   transform:scale(1.05);
+}
+.col-2 .row-2 .header1 h1{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin : .3rem;
+}
+.col-2 .row-2 .header1 .poster-container::-webkit-scrollbar{
+    display : none;
+}
+.col-2 .row-2 .bi-chevron-left{
+    position : absolute;
+    top : 50%;
+    left : 3%;
+    width: 25px;
+   height : 25px;
+    background : rgb(255, 255, 255,.3);
+    color : white;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    border-radius : 50%;
+    cursor:pointer;
+    transition : .3s linear;
+    z-index : 9999999;
+    opacity : 0;
+
+}
+.col-2 .row-2 .bi-chevron-right {
+    position : absolute;
+    top : 50%;
+    right : 3%;
+    width: 25px;
+    height : 25px;
+    background : rgb(255, 255, 255,.3);
+    color : white;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    border-radius : 50%;
+    cursor:pointer;
+    transition : .3s linear;
+    z-index : 9999999;
+    opacity : 0;
+    left :unset;
+    
+}
+    
